@@ -1,0 +1,132 @@
+
+============================================================
+  Zamba2-7B
+============================================================
+Total keys: 786
+Layer range: 0 to 80 (81 layers)
+
+Parameter patterns per layer:
+  model.layers.input_layernorm.weight
+  model.layers.linear.weight
+  model.layers.mamba.A_log
+  model.layers.mamba.D
+  model.layers.mamba.conv1d.bias
+  model.layers.mamba.conv1d.weight
+  model.layers.mamba.dt_bias
+  model.layers.mamba.in_proj.weight
+  model.layers.mamba.norm.weight
+  model.layers.mamba.out_proj.weight
+  model.layers.mamba_decoder.input_layernorm.weight
+  model.layers.mamba_decoder.mamba.A_log
+  model.layers.mamba_decoder.mamba.D
+  model.layers.mamba_decoder.mamba.conv1d.bias
+  model.layers.mamba_decoder.mamba.conv1d.weight
+  model.layers.mamba_decoder.mamba.dt_bias
+  model.layers.mamba_decoder.mamba.in_proj.weight
+  model.layers.mamba_decoder.mamba.norm.weight
+  model.layers.mamba_decoder.mamba.out_proj.weight
+  model.layers.shared_transformer.feed_forward.down_proj.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.0.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.0.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.1.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.1.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.10.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.10.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.11.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.11.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.12.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.12.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.2.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.2.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.3.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.3.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.4.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.4.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.5.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.5.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.6.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.6.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.7.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.7.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.8.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.8.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.9.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.9.1.weight
+  model.layers.shared_transformer.input_layernorm.weight
+  model.layers.shared_transformer.pre_ff_layernorm.weight
+  model.layers.shared_transformer.self_attn.k_proj.weight
+  model.layers.shared_transformer.self_attn.o_proj.weight
+  model.layers.shared_transformer.self_attn.q_proj.weight
+  model.layers.shared_transformer.self_attn.v_proj.weight
+
+Non-layer keys:
+  model.embed_tokens.weight
+  model.final_layernorm.weight
+
+============================================================
+  Zamba2-7B-Instruct
+============================================================
+Total keys: 786
+Layer range: 0 to 80 (81 layers)
+
+Parameter patterns per layer:
+  model.layers.input_layernorm.weight
+  model.layers.linear.weight
+  model.layers.mamba.A_log
+  model.layers.mamba.D
+  model.layers.mamba.conv1d.bias
+  model.layers.mamba.conv1d.weight
+  model.layers.mamba.dt_bias
+  model.layers.mamba.in_proj.weight
+  model.layers.mamba.norm.weight
+  model.layers.mamba.out_proj.weight
+  model.layers.mamba_decoder.input_layernorm.weight
+  model.layers.mamba_decoder.mamba.A_log
+  model.layers.mamba_decoder.mamba.D
+  model.layers.mamba_decoder.mamba.conv1d.bias
+  model.layers.mamba_decoder.mamba.conv1d.weight
+  model.layers.mamba_decoder.mamba.dt_bias
+  model.layers.mamba_decoder.mamba.in_proj.weight
+  model.layers.mamba_decoder.mamba.norm.weight
+  model.layers.mamba_decoder.mamba.out_proj.weight
+  model.layers.shared_transformer.feed_forward.down_proj.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.0.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.0.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.1.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.1.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.10.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.10.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.11.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.11.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.12.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.12.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.2.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.2.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.3.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.3.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.4.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.4.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.5.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.5.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.6.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.6.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.7.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.7.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.8.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.8.1.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.9.0.weight
+  model.layers.shared_transformer.feed_forward.gate_up_proj_adapter_list.9.1.weight
+  model.layers.shared_transformer.input_layernorm.weight
+  model.layers.shared_transformer.pre_ff_layernorm.weight
+  model.layers.shared_transformer.self_attn.k_proj.weight
+  model.layers.shared_transformer.self_attn.o_proj.weight
+  model.layers.shared_transformer.self_attn.q_proj.weight
+  model.layers.shared_transformer.self_attn.v_proj.weight
+
+Non-layer keys:
+  model.embed_tokens.weight
+  model.final_layernorm.weight
+
+MATCH: Both models have identical structure (786 keys)
